@@ -1,0 +1,45 @@
+td {
+	vertical-align: middle;
+}
+.contents-match {
+
+}
+.match-card-frame {
+	width:800px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	
+}
+.match-card-table {
+	background: rgb(0, 0, 0);
+	color: white;
+	height: 150px;		
+	width: 850px;
+	font-size: 25px;
+	font-family:cursive, sarif;
+}
+.match-card-link-part {
+	font-weight : bold;
+	height: 150px;
+	width: 400px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+.match-card-num-part {
+	display: table-cell;
+	vertical-align: middle;
+	height: 150px;
+	width: 160px;
+}
+.attack-effect:hover{
+	background-color:rgb(255,255,255,0.2);
+	color : blue
+}
+.defence-effect:hover{
+	background-color:rgb(255,255,255, 0.2);
+}
+a {
+	text-decoration: none;
+	color: rgb(200, 200, 200);
+}

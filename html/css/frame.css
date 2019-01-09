@@ -1,0 +1,110 @@
+﻿body {
+	font:14px/1.8 Arial, Helvetica, sans-serif;
+	background: radial-gradient(rgb(65,85,95), rgb(35,45,55));
+}
+
+.frame {
+	width:800px;
+	margin: 0 auto;
+  	border: 2px solid #aaa;
+  	color: rgb(200,200,200);
+  	background-color: rgb(40, 50, 60);
+  	box-shadow: 0 5px 15px rgb(20,20,20);
+}
+
+/***** header 요소들 *****/
+.header {
+	padding:80px 10px;
+	text-align: center;
+	background-image: url(../img/header.jpg);
+	background-size:800px;
+	border-bottom: 2px solid #aaa;
+	box-shadow: 0 0 2px rgb(20,20,20);
+	/*margin-bottom: 20px;*/
+}
+
+.logo {
+	font:40px georgia, time-new-roman, serif;
+	color: skyblue;
+}
+
+.header-link {
+	text-decoration: none;
+	color: rgb(200,200,200);
+}
+
+
+/***** container 요소들 *****/
+.container {
+	overflow: hidden;
+  	background-image:url(../img/frame.jpg);
+  	background-size:800px;
+  	background-color: rgba(40,50,60, 0.5);
+	z-index: -1;
+}
+
+	/********* nav 요소들 ***********/
+	.nav {
+		float: right;
+		width: 400px;
+		height: 35px;
+		background: rgb(57, 74, 84);
+		color: #fff;
+	}
+
+	.nav-list {
+	  	list-style: none;
+	  	margin: 0;
+	  	padding: 5px 15px;
+	  	text-align: center;
+	}
+	.nav-item {
+		display: inline;
+	}
+	.nav-link {
+	  	text-decoration: none;
+	  	color: #aaa;
+	}
+	.nav-link:hover {
+	  	color: skyblue;
+	}
+
+	.nav-login {
+		float: left;
+		width: 200px;
+		height: 35px;
+		border-radius: 0 0 30px 0;
+		box-shadow: 3px 3px 3px rgb(40,40,50);
+	}
+
+	.nav-main {
+		border-radius:0 0 0 30px;
+		box-shadow: -3px 3px 3px rgb(40,40,50);
+	}
+	.nav-link-main{
+	  	padding: 0px 20px;
+	}
+
+	/************ contents 요소들 ************/
+	.contents {
+		float: left;
+  		width: 800px;
+	}
+
+/***** footer 요소들 *****/
+.footer {
+	text-align: center;
+	border-top: 1px solid #aaa;
+	margin: 20px 20px 0;
+	font-size: 12px;
+}
+
+
+/***** 그 외 잡것들 *****/
+hr {
+	margin : 0 0;
+	margin-bottom: 2.2px;
+	z-index: 10000;
+	border: 5px solid #aaa;
+	box-shadow: 0 0 3px rgb(40,40,50);
+}

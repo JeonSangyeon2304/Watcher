@@ -1,0 +1,39 @@
+.score{
+	margin : 40px;
+	margin-top: 50px;
+	font-size: 30px;
+}
+
+.solved-Q {
+	font-size: 20px;
+}
+
+table.solved-Q-table {
+	width: 800px;
+}
+
+table[class=solved-Q-table] td{
+	height:40px;	
+	text-align: center;
+}
+
+.odd-line{
+	background: rgba(100,100,100,0.3);
+}
+
+.privacy {
+	margin : 40px;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+table.privacy-table {
+	margin : 40px;
+	margin-left: 100px;
+}
+
+table[class=privacy-table] td{
+	height:40px;
+	padding-right: 50px;
+	
+}

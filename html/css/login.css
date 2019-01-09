@@ -1,0 +1,45 @@
+.contents-login {
+	margin-top:50px;
+	margin-bottom: 200px;
+	text-align: center;
+}
+
+.field-login {
+	text-align: left;
+	font-size: 12px;
+	border-style: none;
+	margin-left: 280px;
+}
+
+input.input-login{
+	font-size:20px;
+	opacity: 0.5;
+	border-style: none;
+	padding: 4px;
+	margin-bottom: 14px
+}
+
+input.input-login-btn {
+
+	font-size: 14px;
+	padding: 8px 14px 8px 14px;
+	border-style: none;
+	border-radius: 5px;
+	opacity: 0.8;
+}
+input.input-login-btn:hover{
+	background: skyblue;
+}
+
+input:focus{
+	background-color: #cef;
+}
+
+a {
+	text-decoration: none;
+	color: #aaa;
+}
+
+a:hover {
+	color:skyblue;
+}

@@ -1,0 +1,51 @@
+.question-contents {
+	text-align: center;
+}
+
+table.table-question {
+	width:600px;
+	margin:50px auto;
+	margin-top:30px;
+}
+
+table[class=table-question] th{
+	background-color : rgb(130, 150, 180);
+	opacity: 0.8;
+	color: rgb(50, 50, 50);
+}
+
+.add-box {
+	width:600px;
+	margin:30px auto;
+	text-align: left;
+}
+
+input[type=text].search-text {
+	display: inline-block;
+	margin-left:10px;
+	line-height: 20px;
+	background-color: rgb(140,150,160);
+	border-color: rgb(140,150,160);
+}
+
+.add-box-btn {
+	margin-left:3px;
+	margin-right:3px;
+	display: inline-block;
+	line-height: 20px;
+	width: 60px;
+	background-color: rgb(200,220,240);
+	border-color: rgb(200,220,240);
+	border-radius: 5px;
+}
+
+.long-add-box-btn {
+	text-decoration:none;
+	color:rgb(40,40,40);
+	width:70px;
+}
+
+.add-box-btn:hover{
+	background-color: skyblue;
+	border-color: skyblue;
+}

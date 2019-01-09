@@ -1,0 +1,38 @@
+
+.contents-left-layout {
+	height: 800px;
+	float: left;
+	padding: 10px;
+	text-align: left;
+}
+
+.contents-right-layout {
+	width: 300px;
+	height: 800px;
+	float: right;
+	border-left: 3px solid rgb(100,100,100);
+	background-image: url("../img/rightb.png");
+	background-size: 300px;
+	background-repeat:no-repeat;
+	background-color: rgb(66,79,92);
+	border-top: 3px solid rgba(0,0,0,0.5);
+}
+
+.in-left-layout{
+	color: rgb(130,130,130);
+	margin-left:20px;
+}
+
+.in-right-layout{
+	margin-left: 20px;
+	color: rgb(140,140,140);
+}
+
+.subtitle {
+	margin: 10px;
+	margin-left: 5px;
+	width: auto;
+	font-size: 150%;
+	color: rgb(180,180,180);
+}
+
